@@ -7,10 +7,10 @@ function Home() {
   return (
     <div>
         <Main />
-        <Row title="Popular" fetchURL={requests.requestPopular} />
-        <Row title="Top Rated" fetchURL={requests.requestRated} />
-        <Row title="Trending" fetchURL={requests.requestTrending} />
-        <Row title="Tv" fetchURL={requests.requestTv} />
+        <Row rowID="1" title="Popular" fetchURL={requests.requestPopular} />
+        <Row rowID="2" title="Top Rated" fetchURL={requests.requestRated} />
+        <Row rowID="3" title="Trending" fetchURL={requests.requestTrending} />
+        <Row rowID="4" title="Tv" fetchURL={requests.requestTv} />
     </div>
   )
 }
